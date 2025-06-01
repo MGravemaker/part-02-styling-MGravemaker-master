@@ -1,0 +1,73 @@
+* {
+    -white: white;
+    -main-background-colour: #222A31;
+    -base-red: #FF4350;
+    -dark-grey: #1A1C20;
+    -light-grey: #797F84;
+    -fx-font-family: 'Montserrat regular';
+
+
+}
+@font-face {
+    font-family: 'Montserrat bold';
+    src: url("/org/adainf/javapro1uipart02/fonts/Montserrat-VariableFont_wght.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat regular';
+    src: url("/org/adainf/javapro1uipart02/fonts/Montserrat-VariableFont_wght.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+#container {-fx-background-color: #222A31;}
+
+#header {-fx-background-color: #FF4350; }
+
+#header#title-pane {-fx-background-color: #F83646;}
+
+#header #title-pane Text {
+    -fx-fill: white;
+    -fx-font-family: 'Montserrat bold';
+
+}
+
+#header TextField {-fx-background-color: #FF4350; }
+
+#navbar {-fx-background-color: #1A1C20; }
+
+#navbar Text {
+    -fx-fill: #797F84;
+
+}
+
+
+.Film:hover {
+    -fx-background-color: #222A31;
+}
+#nav-item:hover {
+    -fx-background-color: #222A31;
+    -fx-fill: #F83646;
+
+}
+#nav-text:hover {
+    -fx-fill: #F83646;
+}
+
+
+#film-hoofd-text {
+    -fx-font-family: 'Montserrat Bold';
+    -fx-font-size: 20px
+}
+#film-section Text {-fx-fill: white;
+
+}
+
+#film-title {-fx-fill: white; }
+
+#film-release-date {-fx-fill: white; }
